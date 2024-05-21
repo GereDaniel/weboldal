@@ -1,0 +1,69 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ffb62f;
+  
+}
+
+.jumbotron img {
+  width: 200px;
+}
+
+section {
+  margin-top: -1px;
+  padding-top: 5rem;
+}
+
+.about .content {
+  text-align: justify;
+}
+
+.projects {
+  background-color: #ffb62f;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row>* {
+  padding: 0;
+}
+
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #ffb62f;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: -2px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer a:hover {
+  opacity: .8;
+}
+
+.alert.alert-dismissible {
+  opacity: 1;
+  transition: .5s all;
+}
+
+.alert.alert-dismissible.fade {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .about .content {
+    text-align: center;
+  }
+}
+._2q1_ {
+  width: 200px;
+  height: auto;
+}
